@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.fatecsjc.lp2.domain;
 
 import java.util.ArrayList;
