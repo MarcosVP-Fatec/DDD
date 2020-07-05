@@ -1,4 +1,4 @@
-package edu.fatecsjc.lp2.domain;
+package edu.fatecsjc.lp2.domain.Video;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
