@@ -1,9 +1,9 @@
-package edu.fatecsjc.lp2.domain.Assinatura;
+package edu.fatecsjc.lp2.domain.generico;
 
 import java.util.Date;
 
-import edu.fatecsjc.lp2.domain.Pagamento.Pagamento;
-import edu.fatecsjc.lp2.domain.Usuario.Usuario;
+import edu.fatecsjc.lp2.domain.generico.Pagamento;
+import edu.fatecsjc.lp2.domain.principal.Usuario;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

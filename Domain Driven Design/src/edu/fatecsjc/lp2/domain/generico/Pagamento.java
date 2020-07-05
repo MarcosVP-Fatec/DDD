@@ -1,4 +1,4 @@
-package edu.fatecsjc.lp2.domain.Pagamento;
+package edu.fatecsjc.lp2.domain.generico;
 
 import java.util.Date;
 

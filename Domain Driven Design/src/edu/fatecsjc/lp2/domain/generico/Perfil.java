@@ -1,9 +1,9 @@
-package edu.fatecsjc.lp2.domain.Perfil;
+package edu.fatecsjc.lp2.domain.generico;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import edu.fatecsjc.lp2.domain.Video.Video;
+import edu.fatecsjc.lp2.domain.principal.Video;
 import lombok.Getter;
 import lombok.Setter;
 

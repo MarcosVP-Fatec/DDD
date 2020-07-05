@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/gabri/Desktop/DDD/lombok.jar"/>
+	<classpathentry kind="lib" path="D:/www/DDD/Domain Driven Design/lombok/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
