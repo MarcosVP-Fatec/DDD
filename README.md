@@ -137,9 +137,34 @@ public class PagamentoService extends DomainService<Pagamento> {
     }
 }
 ```
+
+## Repositorio - IRepositorio
+```java
+package edu.fatecsjc.lp2.domain.repositorios;
+
+public interface IRepositorio<T>{
+    void alterar(T model);
+    void buscar(String filtro, int pagina, int qtdRegistros, long totalRegistros);
+    T excluir(T model);
+    T inserir(T model);
+}
+```
+
+## Repositorio - IPagamentoRepositorio
+```java
+package edu.fatecsjc.lp2.domain.repositorios;
+
+import edu.fatecsjc.lp2.domain.generico.Pagamento;
+
+public interface IPagamentoRepositorio extends IRepositorio<Pagamento> {
+    public void pagar();
+    public void rollback();
+}
+```
+
 # Infra
 
-## Repositorio
+## Repositorio - PagamentoRepositorio
 ```java
 package edu.fatecsjc.lp2.infra.repositorios;
 
