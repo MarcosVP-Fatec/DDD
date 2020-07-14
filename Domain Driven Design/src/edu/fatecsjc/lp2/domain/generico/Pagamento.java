@@ -13,12 +13,11 @@ import lombok.Setter;
 public class Pagamento {
 
 	String formaDePagamento; 
-	int numeroCartao;
 	Date dataValidade;
 	int bancoNumero;
 	int bancoAgencia;
 	int bancoTipoDaConta;
 	String bancoConta;
 	String bancoDV;
-
+	int usuarioId;
 }
