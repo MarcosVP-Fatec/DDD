@@ -32,6 +32,7 @@ package edu.fatecsjc.lp2.domain.generico;
 
 import java.util.Date;
 
+import edu.fatecsjc.lp2.domain.enums.TipoPagamentoEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -42,7 +43,7 @@ import lombok.Setter;
 
 public class Pagamento {
 
-	String formaDePagamento; 
+	TipoPagamentoEnum formaDePagamento; 
 	Date dataValidade;
 	int bancoNumero;
 	int bancoAgencia;
@@ -51,6 +52,7 @@ public class Pagamento {
 	String bancoDV;
 	int usuarioId;
 }
+
 ```
 ## Objeto de Valor - Cartão de Crédito
 ```java
